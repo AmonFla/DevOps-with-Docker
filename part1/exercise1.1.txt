@@ -1,0 +1,10 @@
+Script started on 2022-02-08 22:06:37-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="271" LINES="67"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+2a7c3304fa96   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 36 seconds ago             elated_volhard
+d63d6d231fcb   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 48 seconds ago             affectionate_franklin
+55f6466f2297   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    heuristic_banzai
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ exit
+exit
+
+Script done on 2022-02-08 22:06:48-03:00 [COMMAND_EXIT_CODE="0"]

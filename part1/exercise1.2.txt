@@ -1,0 +1,9 @@
+Script started on 2022-02-08 22:08:27-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="271" LINES="67"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker ps a[K-a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ exit
+exit
+
+Script done on 2022-02-08 22:08:41-03:00 [COMMAND_EXIT_CODE="0"]
