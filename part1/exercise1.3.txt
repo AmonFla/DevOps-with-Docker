@@ -1,0 +1,34 @@
+Script started on 2022-02-09 20:39:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="214" LINES="27"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker run -d --name secret devopsdockeruh/simple-web-service:ubuntu
+83fed45e59bba4718e746a99ca274bbdbbb129c38a68ce220cd60bf4d51f9cdf
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker exec -it secret bash
+]0;root@83fed45e59bb: /usr/src/approot@83fed45e59bb:/usr/src/app# 
+[K]0;root@83fed45e59bb: /usr/src/approot@83fed45e59bb:/usr/src/app# tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-09 23:40:06 +0000 UTC
+2022-02-09 23:40:08 +0000 UTC
+2022-02-09 23:40:10 +0000 UTC
+2022-02-09 23:40:12 +0000 UTC
+2022-02-09 23:40:14 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-09 23:40:16 +0000 UTC
+2022-02-09 23:40:18 +0000 UTC
+2022-02-09 23:40:20 +0000 UTC
+2022-02-09 23:40:22 +0000 UTC
+2022-02-09 23:40:24 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-09 23:40:26 +0000 UTC
+2022-02-09 23:40:28 +0000 UTC
+2022-02-09 23:40:30 +0000 UTC
+2022-02-09 23:40:32 +0000 UTC
+2022-02-09 23:40:34 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-09 23:40:36 +0000 UTC
+^X2022-02-09 23:40:38 +0000 UTC
+^C
+]0;root@83fed45e59bb: /usr/src/approot@83fed45e59bb:/usr/src/app# exit
+exit
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ exit
+exit
+
+Script done on 2022-02-09 20:40:44-03:00 [COMMAND_EXIT_CODE="130"]
