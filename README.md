@@ -3,18 +3,18 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 
 ## Links
 
-* (Devops is nor a role)[http://turnoff.us/geek/devops-explained/]
-* (Understanding How the Docker Daemon and Docker CLI Work Togethe)[https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together]
-* (What's in a Docker image?)[https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/]
-* (From:latest, an opinionated Dockerfile linter)[https://www.fromlatest.io/#/]
-* (Use the Docker command line)[https://docs.docker.com/engine/reference/commandline/cli/]
-* ()[]
-* ()[]
+* [Devops is nor a role](http://turnoff.us/geek/devops-explained/)
+* [Understanding How the Docker Daemon and Docker CLI Work Togethe](https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together)
+* [What's in a Docker image?](https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/)
+* [From:latest, an opinionated Dockerfile linter](https://www.fromlatest.io/#/)
+* [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/)
+* []()
+* []()
 
 ## Most used commands
 |command|explain|shorthand|
 |--|--|--|
-|docker image ls|Lists all images|docker images|
+|`docker image ls`|Lists all images|docker images|
 |`docker image rm <image>`|Removes an image|docker rmi|
 |`docker image pull <image>`|Pulls image from a docker registry|docker pull|
 |`docker container ls -a`|Lists all containers|docker ps -a|
@@ -36,7 +36,7 @@ Exercises from Devos with Docker course https://devopswithdocker.com
     - `<origen>`                : que quiero copiar dentro del docker
     - `<contenedor>:<path>`     : nombre de la imagen y ruta donde copiar
 - `diff`
-    - `<contenedor>`            : nombre del contenedor para ver que cambio dentro (A = added, C = changed, D = deleted)
+    - `<contenedor>`            : nombre del contenedor para ver que cambio dentro [A = added, C = changed, D = deleted]
 - `exec`
     - `-i`                      : pasa el STDIN al container. Usando -it permite arrancar y acceder al contenedor con bash
     - `-t`                      : crea una tty
@@ -71,5 +71,7 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 - FROM `<image>:<tag>`          : imagen a utilizar
 - WORKDIR  `<path>`             : directorio de trabajo
 - COPY `<origen>` `<destino>`   : que copiar dentro del docker
+- ENV  `<variables>`            : defino variables de entorno
 - RUN  `<command>`              : comando a ejecutar mientras se arma la imagen
-- CMD  `<command>`              : que ejecutar dentro del docker al iniciar
+- CMD  `<command>`              : que ejecutar dentro del docker al iniciar, se pisa con lo especificado en la opción `<comando>` al hacer docker run o exec
+- ENTRYPOINT `<command>`        : inicio del comando al cual se le agrega lo especificado en la opción `<comando>` al hacer docker run o exec
