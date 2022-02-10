@@ -1,0 +1,25 @@
+Script started on 2022-02-10 11:08:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="271" LINES="66"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ touch text.log
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^X^C]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ cat text.log 
+2022-02-10 14:09:11 +0000 UTC
+2022-02-10 14:09:13 +0000 UTC
+2022-02-10 14:09:15 +0000 UTC
+2022-02-10 14:09:17 +0000 UTC
+2022-02-10 14:09:19 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-10 14:09:21 +0000 UTC
+2022-02-10 14:09:23 +0000 UTC
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ exit
+exit
+
+Script done on 2022-02-10 11:09:35-03:00 [COMMAND_EXIT_CODE="0"]

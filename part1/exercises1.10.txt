@@ -1,0 +1,8 @@
+Script started on 2022-02-10 11:23:10-03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="271" LINES="67"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1/test[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1/test[00m$ docker run -d -p 3000:8080 devopsdockeruh/simple-web-service server
+524381767faddf194c3f11b1876722809c5996f1ebc349701bf30ba19e290d17
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1/test[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1/test[00m$ curl localhost:3000
+{"message":"You connected to the following path: /","path":"/"}]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1/test[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1/test[00m$ exit
+exit
+
+Script done on 2022-02-10 11:24:05-03:00 [COMMAND_EXIT_CODE="0"]
