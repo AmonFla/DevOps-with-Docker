@@ -1,0 +1,29 @@
+Script started on 2022-02-10 08:53:53-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="214" LINES="27"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker image ls
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+ubuntu                              latest    54c9d81cbb44   8 days ago      72.8MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   11 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   11 months ago   15.7MB
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker run -it -d --name ex15 devopsdockeruh/simple-web-service:alpine
+1ffe868e6f18828dac624a55d27e5ac88fd860c9b2da1a9f7d034cd96440fde3
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ docker exec -it ex15 sh
+/usr/src/app # tail -f ./text.log 
+2022-02-10 11:54:31 +0000 UTC
+2022-02-10 11:54:33 +0000 UTC
+2022-02-10 11:54:35 +0000 UTC
+2022-02-10 11:54:37 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-10 11:54:39 +0000 UTC
+2022-02-10 11:54:41 +0000 UTC
+2022-02-10 11:54:43 +0000 UTC
+2022-02-10 11:54:45 +0000 UTC
+2022-02-10 11:54:47 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-02-10 11:54:49 +0000 UTC
+2022-02-10 11:54:51 +0000 UTC
+^C
+/usr/src/app # [6nexit
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/DevOps-with-Docker/part1[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/DevOps-with-Docker/part1[00m$ exit
+exit
+
+Script done on 2022-02-10 08:54:58-03:00 [COMMAND_EXIT_CODE="130"]
