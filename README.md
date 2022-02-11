@@ -7,9 +7,7 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 * [Understanding How the Docker Daemon and Docker CLI Work Togethe](https://nickjanetakis.com/blog/understanding-how-the-docker-daemon-and-docker-cli-work-together)
 * [What's in a Docker image?](https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/)
 * [From:latest, an opinionated Dockerfile linter](https://www.fromlatest.io/#/)
-* [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/)
-* []()
-* []()
+* [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/) 
 
 ## Most used commands
 |command|explain|shorthand|
