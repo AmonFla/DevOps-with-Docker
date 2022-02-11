@@ -94,6 +94,7 @@ More information at https://docs.docker.com/compose/reference/
 - push                          : Push service images
 - run                           : Run a one-off command
 - up                            : Create and start containers
+    - `--scale <name>=<n>`      : Makes `<n>` instance of `<name>`service
 
 ## docker-compose file
 More information at https://docs.docker.com/compose/compose-file/
@@ -102,6 +103,7 @@ More information at https://docs.docker.com/compose/compose-file/
 - service                       : list of services to create
     - `<name>`                  : name of the service
 - volumes                       : name for local volumes to use between services
+- networks                      : name for networks created inside docker
 
 ### Service options
 
@@ -121,4 +123,6 @@ More information at https://docs.docker.com/compose/compose-file/
 - container_name                : Specify a custom container name, rather than a generated default name.
 - environment                   : Add environment variables. Value=key
 - command                       : Override the default command
+- restart                       : Restart policy, options: "no", always, on-failure, unless-stopped
+- networks                      : Network to join, defined in the same docker-compose file or not
   
