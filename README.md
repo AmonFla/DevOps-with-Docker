@@ -112,6 +112,13 @@ More information at https://docs.docker.com/compose/compose-file/
         - context               : Path to Dockerfile
         - dockerfile            : Name of the Dockerfile to use
         - args                  : List of arguments
-- volumes                       : Mount host paths or named volumes, syntaxis ` - location-in-host:location-in-container`, ` - local-name:location-in-container`
+- volumes                       : Mount host paths or named volumes
+    - short-syntaxis            : ` - location-in-host:location-in-container`, ` - local-name:location-in-container` [more-info](https://docs.docker.com/compose/compose-file/compose-file-v3/#short-syntax-3)
+    - long-syntaxis             : [more-info](https://docs.docker.com/compose/compose-file/compose-file-v3/#long-syntax-3)
+        - `- type`              : the mount type volume, bind, tmpfs or npipe
+        - `source`              : the source of the mount, a path on the host for a bind mount, or the name of a volume
+        - `target`              : the path in the container where the volume is mounted
 - container_name                : Specify a custom container name, rather than a generated default name.
+- environment                   : Add environment variables. Value=key
+- command                       : Override the default command
   
