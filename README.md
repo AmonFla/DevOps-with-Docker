@@ -31,6 +31,9 @@ Full list at https://docs.docker.com/engine/reference/run/
 - `commit`                                  : Create a new image from a container’s changes
     - `<container>`                         : Name of the container
 	- `<image>`                             : Name of the image
+- `container`                               : Manage containers
+    - `inspect`                             : Display detailed information on one or more containers
+    - `<container>`                         : Name of the container
 - `cp`                                      : Copy files/folders between a container and the local filesystem local->container:path or container:path->local
     - `<source>`                            : From where to copy 
     - `<destination>`                       : Where to copy
@@ -72,6 +75,10 @@ Full list at https://docs.docker.com/engine/reference/run/
 - `tag`                                     : Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
     - `<source>`                            : Actual name
     - `<target>`                            : New name, for example docker tag ubuntu:18.04 ubuntu:bionic o docker tag ubuntu:18.04 fav_distro:bionic 
+- `volume`  
+    - `ls`                                  : List volumes
+    - `prune`                               : Remove all unused local volumes      
+    - `rm`                                  : Remove one or more volumes
 
 ## Dockerfile
 More information at https://docs.docker.com/engine/reference/builder/
@@ -125,4 +132,5 @@ More information at https://docs.docker.com/compose/compose-file/
 - command                       : Override the default command
 - restart                       : Restart policy, options: "no", always, on-failure, unless-stopped
 - networks                      : Network to join, defined in the same docker-compose file or not
+- depends_on                    : List of container that must be active to initiate this one
   
