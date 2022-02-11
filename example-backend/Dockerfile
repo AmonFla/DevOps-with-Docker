@@ -12,4 +12,6 @@ COPY . .
 
 RUN go build .
 
-CMD ./server
+ENV REQUEST_ORIGIN="http://localhost:5000"
+
+CMD ["./server"]
