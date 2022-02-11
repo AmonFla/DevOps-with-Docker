@@ -48,6 +48,8 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 - `logs`    
     - `-f`                                  : permite que el log quede activo y seguirlo
     - `<contenedor>`                        : nombre del contenedor
+- `push`
+    - `<image>`                             : imagen a publicar, antes hacer login
 - `rm`
     - `<contenedor>`                        : nombre del contenedor
 - `run`
