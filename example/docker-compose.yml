@@ -29,3 +29,12 @@ services:
     environment:
       POSTGRES_PASSWORD: example
     container_name: postgres
+  
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+    container_name: nginx
+
