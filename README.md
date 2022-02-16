@@ -30,6 +30,8 @@ Full list at https://docs.docker.com/engine/reference/run/
 - `attach`                                  : Attach local standard input, output, and error streams to a running container
     - `--no-stdin`                          : Do not attach STDIN, so ctl+c don't stop the execution
     - `<container>`                         : Name of the container
+- `build`
+    - `-t`                                  : Tag the image
 - `commit`                                  : Create a new image from a container’s changes
     - `<container>`                         : Name of the container
 	- `<image>`                             : Name of the image
