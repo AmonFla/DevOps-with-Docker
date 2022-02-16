@@ -8,6 +8,8 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 * [What's in a Docker image?](https://cameronlonsdale.com/2018/11/26/whats-in-a-docker-image/)
 * [From:latest, an opinionated Dockerfile linter](https://www.fromlatest.io/#/)
 * [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/) 
+* [Build and push Docker images - Github actions](https://github.com/marketplace/actions/build-and-push-docker-images)
+* [Watchtower](https://github.com/containrrr/watchtower)
 
 ## Most used commands
 |command|explain|shorthand|
