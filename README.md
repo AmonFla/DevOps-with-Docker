@@ -140,4 +140,12 @@ More information at https://docs.docker.com/compose/compose-file/
 - restart                       : Restart policy, options: "no", always, on-failure, unless-stopped
 - networks                      : Network to join, defined in the same docker-compose file or not
 - depends_on                    : List of container that must be active to initiate this one
+
+## Multi-host environments tools
+
+- [Docker swarm mode](https://docs.docker.com/engine/swarm/)
+- [Docker Swarm](https://www.mirantis.com/tag/swarm/)
+- [Kybernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+- [Lightweight Kubernetes](https://k3s.io/)
+- [k3s in docker](https://github.com/k3d-io/k3d)
   
