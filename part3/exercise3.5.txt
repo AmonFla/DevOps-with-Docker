@@ -4,13 +4,7 @@ REPOSITORY         TAG                  IMAGE ID       CREATED          SIZE
 example-frontend   latest               28952f736b28   2 minutes ago    1.03GB
 example-frontend   alpine               c72e70644eed   7 minutes ago    232MB
 example-backend    alpine               df6becc13e2f   11 minutes ago   644MB
-<none>             <none>               02c817efdb95   11 minutes ago   111MB
-<none>             <none>               da7ddf4ce617   14 minutes ago   302MB
-<none>             <none>               c3ce5892420f   31 minutes ago   1.03GB
 example-backend    latest               aaa22eab2e3f   33 minutes ago   1.26GB
-<none>             <none>               845c44667c0f   34 minutes ago   920MB
-<none>             <none>               350e6c4b959b   42 minutes ago   1.28GB
-<none>             <none>               a7a722e5d5d8   44 minutes ago   1.39GB
 golang             1.16.14-alpine3.15   626041e26e91   6 days ago       302MB
 golang             1.16                 221c5472423f   6 days ago       920MB
 node               16                   1e151315aa91   7 days ago       906MB

@@ -1,0 +1,12 @@
+ 
+FROM node:16 
+
+WORKDIR /usr/src/app
+
+RUN npm install webpack -g 
+
+COPY . .
+ 
+RUN npm ci && npm run build
+ 
+CMD npm run start-prod
