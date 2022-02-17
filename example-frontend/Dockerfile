@@ -1,18 +1,13 @@
-FROM node:16
+FROM node:16 as build
 
-EXPOSE 5000
 
 WORKDIR /usr/frontend
 
 COPY . .
 
-RUN npm install -g serve && \
-    npm ci && \
-    useradd -m appuser && \
-    chown -R appuser:appuser /usr/frontend && \
-    npm run build && \
-    rm -Rf node_modules
+RUN npm ci && \
+    npm run build 
 
-USER appuser 
+FROM nginx:1.19-alpine
 
-CMD ["serve","-s","-l","5000","build"]
+COPY --from=build /usr/frontend/build /usr/share/nginx/html
