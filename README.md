@@ -1,5 +1,6 @@
 ﻿# DevOps-with-Docker
 Exercises from Devos with Docker course https://devopswithdocker.com
+Course materials froked at https://github.com/AmonFla/docker-hy.github.io
 
 ## Links
 
@@ -10,6 +11,7 @@ Exercises from Devos with Docker course https://devopswithdocker.com
 * [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/) 
 * [Build and push Docker images - Github actions](https://github.com/marketplace/actions/build-and-push-docker-images)
 * [Watchtower](https://github.com/containrrr/watchtower)
+* [User mapping](https://docs.docker.com/engine/security/userns-remap/)
 
 ## Most used commands
 |command|explain|shorthand|
