@@ -4,17 +4,16 @@ EXPOSE 8080
 
 WORKDIR /usr/backend
 
-COPY ./go* ./
+COPY . ./code
 
-RUN go mod download
-
-COPY . .
-
-RUN go build .
-
-RUN useradd -m appuser
-
-RUN chown -R appuser:appuser /usr/backend
+RUN cd ./code && \
+    go mod download && \
+    go build . && \
+    useradd -m appuser && \
+    chown -R appuser:appuser /usr/backend/code && \
+    mv ./server ../server && \
+    cd .. && \
+    rm -Rf ./code 
 
 USER appuser
 

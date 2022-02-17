@@ -1,0 +1,26 @@
+Script started on 2022-02-16 22:34:20-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="271" LINES="67"]
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/docker example[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/docker example[00m$ docker image ls
+REPOSITORY         TAG           IMAGE ID       CREATED              SIZE
+example-backend    latest        350e6c4b959b   About a minute ago   1.28GB
+example-frontend   latest        a7a722e5d5d8   3 minutes ago        1.39GB
+golang             1.16          221c5472423f   6 days ago           920MB
+node               16            1e151315aa91   7 days ago           906MB
+redis              latest        f1b6973564e9   3 weeks ago          113MB
+nginx              latest        c316d5a335a5   3 weeks ago          142MB
+postgres           13.2-alpine   e43172f9204f   10 months ago        160MB
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/docker example[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/docker example[00m$ docker image ls
+REPOSITORY         TAG           IMAGE ID       CREATED          SIZE
+example-frontend   latest        c3ce5892420f   53 seconds ago   1.03GB
+example-backend    latest        aaa22eab2e3f   2 minutes ago    1.26GB
+<none>             <none>        845c44667c0f   4 minutes ago    920MB
+<none>             <none>        350e6c4b959b   11 minutes ago   1.28GB
+<none>             <none>        a7a722e5d5d8   14 minutes ago   1.39GB
+golang             1.16          221c5472423f   6 days ago       920MB
+node               16            1e151315aa91   7 days ago       906MB
+redis              latest        f1b6973564e9   3 weeks ago      113MB
+nginx              latest        c316d5a335a5   3 weeks ago      142MB
+postgres           13.2-alpine   e43172f9204f   10 months ago    160MB
+]0;fbonnin@fbonnin-Inspiron-5567: ~/Escritorio/docker example[01;32mfbonnin@fbonnin-Inspiron-5567[00m:[01;34m~/Escritorio/docker example[00m$ exit
+exit
+
+Script done on 2022-02-16 22:45:31-03:00 [COMMAND_EXIT_CODE="0"]

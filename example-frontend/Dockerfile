@@ -4,20 +4,15 @@ EXPOSE 5000
 
 WORKDIR /usr/frontend
 
-RUN npm install -g serve
-
-COPY ./package* ./
-
-RUN npm ci
-
 COPY . .
 
-RUN useradd -m appuser
+RUN npm install -g serve && \
+    npm ci && \
+    useradd -m appuser && \
+    chown -R appuser:appuser /usr/frontend && \
+    npm run build && \
+    rm -Rf node_modules
 
-RUN chown -R appuser:appuser /usr/frontend
-
-USER appuser
-
-RUN npm run build
+USER appuser 
 
 CMD ["serve","-s","-l","5000","build"]

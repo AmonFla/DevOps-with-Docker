@@ -12,6 +12,7 @@ Course materials froked at https://github.com/AmonFla/docker-hy.github.io
 * [Build and push Docker images - Github actions](https://github.com/marketplace/actions/build-and-push-docker-images)
 * [Watchtower](https://github.com/containrrr/watchtower)
 * [User mapping](https://docs.docker.com/engine/security/userns-remap/)
+* [Building small containers](https://youtu.be/wGz_cbtCiEA)6
 
 ## Most used commands
 |command|explain|shorthand|
